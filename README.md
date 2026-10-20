@@ -76,6 +76,12 @@ The Fed balance sheet (QE) and equity valuations share a **stable long-run relat
 - **Observations:** 59 quarters
 - **Coverage:** All four QE rounds (QE1 2008, QE2 2010, QE3 2012, QE4 2020)
 
+### Series Over Time
+
+The chart below shows the balance sheet, Treasury yield, and S&P 500 P/E series over the sample, with QE periods marked.
+
+![Quarterly balance sheet, Treasury yield, and S&P 500 P/E series with QE periods](images/bp_fig2_series.png)
+
 ### Data File
 
 ```
@@ -201,7 +207,7 @@ qe-asset-valuation-vecm/
 ├── notebooks/                         # (Optional) exploratory notebooks
 │   └── exploration.ipynb
 │
-├── figures/                           # Output charts
+├── images/                            # Project figures
 │   ├── bp_fig1_decision_tree.png      # Methodology overview
 │   ├── bp_fig2_series.png             # Raw series with QE periods
 │   ├── bp_fig3_diagnostics.png        # Test results & stability
@@ -257,7 +263,7 @@ This will:
 6. Compute IRFs with bootstrap confidence bands (500 draws)
 7. Compute FEVD
 8. Run robustness checks
-9. Generate all figures in `figures/`
+9. Generate all figures in `images/`
 
 Expected runtime: ~30 seconds on a modern laptop.
 
@@ -355,15 +361,6 @@ Conclusion: **r = 1 cointegrating relationship**
 - Gagnon, J., Raskin, M., Remache, J., & Sack, B. (2011). The financial market effects of the Federal Reserve's large-scale asset purchases. *International Journal of Central Banking*, 7(1), 3-43.
 - Krishnamurthy, A., & Vissing-Jorgensen, A. (2011). The effects of Quantitative Easing on interest rates: Channels and implications for policy. *Brookings Papers on Economic Activity*, 2, 215-287.
 - Joyce, M., Miles, D., Scott, A., & Vayanos, D. (2012). Quantitative Easing and unconventional monetary policy — an introduction. *The Economic Journal*, 122(564), F271-F288.
-
----
-
-## Author
-
-**[Your Name]**
-[Your affiliation / programme]
-[your.email@example.com]
-[LinkedIn / Personal site]
 
 ---
 
